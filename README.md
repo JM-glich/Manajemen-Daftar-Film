@@ -49,7 +49,7 @@ Kode di atas ini adalah bagian setter dan getter nya yang nanti digunakan untuk 
 }
 
 ```
-Method toString() dipakai agar saat objek Film ditampilkan, langsung muncul dalam format teks yang rapi.
+Method toString() dipakai agar saat objek Film ditampilkan, langsung muncul dalam format teks yang rapi. selain itu juga menggunakan @Override agar tidak mengubah kode parents class secara langsung.
 
 # Bagian Yang Menjadi MENU UTAMA
 ``` java
