@@ -1,3 +1,7 @@
+Nama: Jemis Movid
+
+NIM: 2409116070
+
 # Manajemen-Daftar-Film
 
 ``` java
@@ -198,3 +202,34 @@ User pilih nomor film, lalu memasukkan data baru. Data lama kemudian akan digant
 User pilih nomor film, lalu data film tersebut dihapus dari daftar (Sangat simpel sekali).
 
 # ALUR PROGRAM
+
+1. Program dimulai dengan masuk ke method Manajemen_Daftar_Film (Di dalamnya nanti akan dibuatkan array buat nyimpan data dan scanner untuk nginput).
+2. Nah, nanti akan muncul menu seperti ini. Di dalamnya ada perulangan do...while, jadi akan terus muncul setelah user melakukan aksi sampai ia memilih opsi 0 (keluar).
+
+    <img width="510" height="225" alt="image" src="https://github.com/user-attachments/assets/2d0dad07-e20a-48dd-a7e0-74e513106b4c" />
+3. Setelah itu user akan memasukan angka sebagai input.
+4. Jika user memilih angka 1 (Tambah Film).
+
+    <img width="438" height="365" alt="image" src="https://github.com/user-attachments/assets/05bcdfe6-b038-4739-822e-021f55e5653f" />
+
+    Maka akan muncul inputan untuk memasukan value seperti judul, genre, tahun rilis, dan rating.
+5. Jika user memilih angka 2 (Tampilkan Semua Film).
+
+    <img width="765" height="255" alt="image" src="https://github.com/user-attachments/assets/6f8073ce-18af-4e4f-b66b-edecc284d819" />
+
+    Program akan mengecek apakah ```daftarFilm``` kosong atau tidak. Kalau kosong maka akan muncul pesan "Belum ada film dalam daftar". Tapi bila ada, maka program akan menampilkan semua film yang ada.
+6. Jika user memilih angka 3 (Update Film). (Di sini saya sudah menambahkan data lainnya)
+
+    <img width="878" height="335" alt="image" src="https://github.com/user-attachments/assets/0b25639c-fae3-4865-a0d5-2b7dce7f24d0" />
+
+    Pertama, program akan menampilkan semua film yang ada. User kemudian memasukan input sesuai dengan nomor urut film. Program kemudian akan meminta data baru (judul, genre, tahun rilis, dan rating). 
+7. Jika user memilih angka 4 (Hapus Film).
+
+    <img width="1345" height="237" alt="image" src="https://github.com/user-attachments/assets/b6cb09df-4a87-4f5b-9801-66ba44a2f125" />
+
+    Mirip menu angka 3, pertama program akan menampilkan semua film yang ada. Lalu user tinggal menginput angka sesuai nomor urut filmnya dan film pun akan dihapus.
+8. Jika user memilih angka 0 (keluar).
+
+    <img width="421" height="267" alt="image" src="https://github.com/user-attachments/assets/285703bb-ff0f-470b-9a8b-a18ede9b26f8" />
+
+    Program akhirnya akan berhenti berjalan dan user pun keluar dari program.
